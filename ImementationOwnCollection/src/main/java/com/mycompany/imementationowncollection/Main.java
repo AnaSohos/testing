@@ -43,24 +43,27 @@ public class Main {
           System.out.println("итератор");
            
         System.out.println("---------------------------------");
+        Iterator iterSet2 = set.iterator();
+        while (iterSet2.hasNext()) {
+            System.out.println(iterSet2.next());
+        }
    
     
         System.out.println("---------------------------------");
         System.out.println("размер сэт " + set.getSet().size());
         
-              System.out.println(set.add(1));
-         System.out.println(set.contains(1));
-         System.out.println( "lдобавить повторно " + set.add(1));
+         System.out.println("добавить 1 " + set.add(1));
+         System.out.println("наличие 1" + set.contains(1));
+         System.out.println( "добавить повторно " + set.add(1));
 
-        Iterator iterSet2 = set.iterator();
-        while (iterSet2.hasNext()) {
-            System.out.println(iterSet2.next());
-        }
+           System.out.println("итератор2!");
+           
         System.out.println("---------------------------------");
+       Iterator iterSet3 = set.iterator();
+        while (iterSet3.hasNext()) {
+            System.out.println(iterSet3.next());
+        }
         
- System.out.println(set.add(null));
-         System.out.println(set.contains(null));
-        System.out.println(set.add(null));
     
      
 
