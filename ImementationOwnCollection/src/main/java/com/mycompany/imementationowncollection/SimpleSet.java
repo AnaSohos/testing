@@ -1,5 +1,6 @@
 package com.mycompany.imementationowncollection;
 
+import static java.util.Objects.isNull;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Objects;
@@ -7,9 +8,9 @@ import java.util.Objects;
 public class SimpleSet<T> implements Set<T> {
 
     private SimpleArrayList<T> set = new SimpleArrayList<>();
-    int countNull = 0;
+
     int size = 0;
-    T sravn = null;
+    int nulll = 0;
 
     public SimpleSet(int capacity) {
         this.set = new SimpleArrayList<>(capacity);
@@ -17,17 +18,15 @@ public class SimpleSet<T> implements Set<T> {
 
     @Override
     public boolean add(T value) {
-        
-        int nulll = 0;
-   if (contains(null)) {
-            if (nulll ==0){
-                set.add(value);
-                size++;
-                countNull++;
-                nulll ++;}
-            else{return false;}
-            }
- 
+
+        if (IsNull(value) && nulll == 0) {
+
+            set.add(value);
+            size++;
+            nulll++;
+            return true;
+        }
+
         try {
             if (!contains(value)) {
 
@@ -56,21 +55,25 @@ public class SimpleSet<T> implements Set<T> {
         int s = 0;
 
         try {
-            
-            
-            for (T ttt : set) {
-                 if(ttt==null){
-                     s++;
-                     
-                 }
-              
-                  if (ttt.equals(value)) {
-                    s++;
+
+            if (!IsNull(value)) {
+
+                for (T ttt : set) {
+
+                    if (ttt.equals(value)) {
+                        s++;
+                    }
+                  
+
                 }
-               
+            } else if (IsNull(value)) {
+                s++;
+            } else {
+                s = 0;
             }
+
         } catch (NullPointerException e) {
-      
+             
         }
 
         return s == 1;
@@ -99,11 +102,8 @@ public class SimpleSet<T> implements Set<T> {
 
     @Override
     public int hashCode() {
-        int hash = 3;
-        hash = 47 * hash + Objects.hashCode(this.set);
-        hash = 47 * hash + this.countNull;
-        hash = 47 * hash + this.size;
-        hash = 47 * hash + Objects.hashCode(this.sravn);
+        int hash = 5;
+        hash = 29 * hash + Objects.hashCode(this.set);
         return hash;
     }
 
@@ -119,19 +119,14 @@ public class SimpleSet<T> implements Set<T> {
             return false;
         }
         final SimpleSet<?> other = (SimpleSet<?>) obj;
-        if (this.countNull != other.countNull) {
-            return false;
-        }
-        if (this.size != other.size) {
-            return false;
-        }
         if (!Objects.equals(this.set, other.set)) {
             return false;
         }
-        if (!Objects.equals(this.sravn, other.sravn)) {
-            return false;
-        }
         return true;
+    }
+
+    private boolean IsNull(T value) {
+        return value == null;
     }
 
 }
