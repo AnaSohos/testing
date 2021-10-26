@@ -7,9 +7,13 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 import java.util.Iterator;
+<<<<<<< HEAD
 import java.util.NoSuchElementException;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
+=======
+import static org.hamcrest.MatcherAssert.assertThat;
+>>>>>>> abe61fbbf37feedd9b156770c986660beccc66c1
 
 
 public class SimpleLinkedListTest {
@@ -91,6 +95,7 @@ public class SimpleLinkedListTest {
         assertThat(second.next(), Is.is(2));
         assertThat(second.hasNext(), Is.is(false));
     }
+<<<<<<< HEAD
     
     @Test(expected = NoSuchElementException.class)
     public void whenDeleteFirst() {
@@ -116,6 +121,8 @@ public class SimpleLinkedListTest {
         assertThat(it.next(), is(2));
     }
 
+=======
+>>>>>>> abe61fbbf37feedd9b156770c986660beccc66c1
 }
   
     

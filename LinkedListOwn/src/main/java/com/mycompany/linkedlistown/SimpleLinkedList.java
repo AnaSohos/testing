@@ -78,6 +78,7 @@ public class SimpleLinkedList<E> implements List<E> {
         return size;
     }
 
+<<<<<<< HEAD
     public E deleteFirst() {
         E val;
         if (isEnpty()) {
@@ -96,6 +97,8 @@ public class SimpleLinkedList<E> implements List<E> {
 
     }
 
+=======
+>>>>>>> abe61fbbf37feedd9b156770c986660beccc66c1
     public boolean isEnpty() {
         if (checkIndex() == 0) {
             return true;

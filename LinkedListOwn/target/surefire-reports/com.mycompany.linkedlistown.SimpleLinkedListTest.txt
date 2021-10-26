@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.linkedlistown.SimpleLinkedListTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
+=======
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.207 sec
+>>>>>>> abe61fbbf37feedd9b156770c986660beccc66c1
