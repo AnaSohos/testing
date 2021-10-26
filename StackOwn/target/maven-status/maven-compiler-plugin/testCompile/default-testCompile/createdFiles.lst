@@ -1,0 +1,3 @@
+com\mycompany\stackown\SimpleStackTest.class
+com\mycompany\stackown\SimpleQueueTest.class
+org\hamcrest\Matchers.class
