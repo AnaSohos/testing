@@ -1,2 +1,6 @@
 com\mycompany\stackown\SimpleStackTest.class
+<<<<<<< HEAD
+=======
+com\mycompany\stackown\SimpleQueueTest.class
+>>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
 org\hamcrest\Matchers.class

@@ -11,7 +11,11 @@ public class ForwardLinked<E> implements List<E> {
     int modCount;
 
     public ForwardLinked() {
+<<<<<<< HEAD
         Node<E> newNode = new Node();
+=======
+       Node<E> newNode = new Node();
+>>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
         modCount = 0;
     }
 
@@ -101,8 +105,18 @@ public class ForwardLinked<E> implements List<E> {
         if (isEnpty()) {
             throw new NoSuchElementException();
         } else {
+<<<<<<< HEAD
             Node<E> one = start;
             Node<E> two = start;
+=======
+             Node<E> one = start;
+            Node<E> two = start;
+            if(two.next == null){
+          start = start.next;
+            
+            }
+           
+>>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
 
             while (two.next != null) {
 
@@ -148,7 +162,36 @@ public class ForwardLinked<E> implements List<E> {
         }
         return vas;
     }
+<<<<<<< HEAD
 
+=======
+   public E deleteLast() {
+        Node<E> del = start, link = null;
+        E vas = null;
+
+        if (isEnpty()) {
+            throw new NoSuchElementException();
+        }
+        while (del != null) {
+            Node<E> deleteElem = null;
+
+                if (link == null) {
+                    vas = start.value;
+                    start = start.next;
+
+                } else {
+                    vas = del.value;
+                    link.next = del.next;
+
+            }
+            link = del;
+            del = del.next;
+
+        }
+        return vas;
+    }
+   
+>>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
     public boolean isEnpty() {
         if (checkIndex() == 0) {
             return true;
