@@ -65,7 +65,11 @@ public class Main {
         }
         
     
-     
+     SimpleLinkedList ddd = new SimpleLinkedList();
+     ddd.add(12);
+      ddd.add(115);
+       ddd.add(125);
+        ddd.add(7);
 
     }
 

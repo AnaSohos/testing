@@ -1,5 +1,8 @@
 com\mycompany\linkedlistown\SimpleLinkedList$Node.class
+<<<<<<< HEAD
+=======
 com\mycompany\linkedlistown\Main.class
+>>>>>>> abe61fbbf37feedd9b156770c986660beccc66c1
 com\mycompany\linkedlistown\SimpleLinkedList$1.class
 com\mycompany\linkedlistown\List.class
 com\mycompany\linkedlistown\SimpleLinkedList.class
