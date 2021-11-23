@@ -16,11 +16,6 @@ public class SimpleMapTest {
 
     }
 
-    @Before
-    public void initData() {
-        SimpleMap<Integer, String> map = new SimpleMap<>();
-
-    }
 
     @Test
     public void testPut() {
@@ -54,7 +49,7 @@ public class SimpleMapTest {
         assertThat(map.get(3), Is.is("три"));
 
     }
-
+ @Test
     public void whenGetFromOutOfBoundThenExceptionThrown() {
         SimpleMap<Integer, String> map = new SimpleMap<>();
         map.put(1, "один");
