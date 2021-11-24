@@ -2,7 +2,20 @@
 Test set: com.mycompany.stackown.SimpleStackTest
 -------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+=======
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+>>>>>>> 006f593d0eeaad2464d8d3dd0796ef2829b1ea20
+=======
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
 Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
 =======
 Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 >>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
+<<<<<<< HEAD
+=======
+>>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996

@@ -8,21 +8,53 @@ public class SimpleStack<E> {
         linked.addFerst(value);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public void pushLast(E value) {
         linked.add(value);
     }
 >>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
+=======
+<<<<<<< HEAD
+    public void pushLast(E value) {
+        linked.add(value);
+    }
+=======
+>>>>>>> 006f593d0eeaad2464d8d3dd0796ef2829b1ea20
+=======
+=======
+    public void pushLast(E value) {
+        linked.add(value);
+    }
+>>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
+>>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
 
     public E pop() {
 
         return linked.deleteFirst();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
     public E popLast() {
 
         return linked.deleteLast();
     }
+<<<<<<< HEAD
 >>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 006f593d0eeaad2464d8d3dd0796ef2829b1ea20
+=======
+>>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
+>>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
 }

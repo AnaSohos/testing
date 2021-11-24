@@ -1,0 +1,51 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'E:/gg/OwnMap/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/gg/OwnMap/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'OwnMap 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'E:/gg/OwnMap/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'OwnMap 1.0-SNAPSHOT API'
+com.mycompany.ownmap
+'E:/gg/OwnMap/src/main/java/com/mycompany/ownmap/Main.java'
+'E:/gg/OwnMap/src/main/java/com/mycompany/ownmap/Map.java'
+'E:/gg/OwnMap/src/main/java/com/mycompany/ownmap/SimpleMap.java'
+E:\gg\OwnMap\src\main\java = 1635758438000
+E:\gg\OwnMap\target\apidocs\element-list = 1635851844000
+E:\gg\OwnMap\target\apidocs\constant-values.html = 1635851844000
+E:\gg\OwnMap\target\apidocs\overview-tree.html = 1635851844000
+E:\gg\OwnMap\target\apidocs\package-search-index.js = 1635851844000
+E:\gg\OwnMap\target\apidocs\package-search-index.zip = 1635851844000
+E:\gg\OwnMap\target\apidocs\type-search-index.js = 1635851844000
+E:\gg\OwnMap\target\apidocs\type-search-index.zip = 1635851844000
+E:\gg\OwnMap\target\apidocs\member-search-index.js = 1635851844000
+E:\gg\OwnMap\target\apidocs\member-search-index.zip = 1635851844000
+E:\gg\OwnMap\target\apidocs\index-all.html = 1635851844000
+E:\gg\OwnMap\target\apidocs\allclasses-index.html = 1635851844000
+E:\gg\OwnMap\target\apidocs\allpackages-index.html = 1635851844000
+E:\gg\OwnMap\target\apidocs\deprecated-list.html = 1635851844000
+E:\gg\OwnMap\target\apidocs\allclasses.html = 1635851844000
+E:\gg\OwnMap\target\apidocs\index.html = 1635851844000
+E:\gg\OwnMap\target\apidocs\help-doc.html = 1635851844000
+E:\gg\OwnMap\target\apidocs\stylesheet.css = 1635851844000
+E:\gg\OwnMap\target\apidocs\script.js = 1635851844000
+E:\gg\OwnMap\target\apidocs\search.js = 1635851844000
