@@ -2,6 +2,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
 <testsuite tests="3" failures="0" name="com.mycompany.stackown.SimpleStackTest" time="0.009" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -11,7 +17,14 @@
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
 =======
+<<<<<<< HEAD
 >>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
 <testsuite tests="3" failures="0" name="com.mycompany.stackown.SimpleStackTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -21,6 +34,12 @@
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
+=======
+<<<<<<< HEAD
+>>>>>>> 01bf464 (tack 1,2 lambda)
 =======
 <testsuite tests="3" failures="0" name="com.mycompany.stackown.SimpleStackTest" time="0.009" errors="0" skipped="0">
   <properties>
@@ -34,6 +53,10 @@
 =======
 >>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
 >>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+<<<<<<< HEAD
+=======
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
@@ -46,25 +69,49 @@
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 01bf464 (tack 1,2 lambda)
     <property name="java.runtime.version" value="14+36-1461"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
 =======
 =======
 >>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+<<<<<<< HEAD
+=======
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
     <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 006f593d0eeaad2464d8d3dd0796ef2829b1ea20
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 006f593d0eeaad2464d8d3dd0796ef2829b1ea20
+=======
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
 =======
     <property name="java.runtime.version" value="14+36-1461"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
 >>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
+<<<<<<< HEAD
 >>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -72,6 +119,11 @@
     <property name="os.name" value="Windows 10"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 01bf464 (tack 1,2 lambda)
     <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
@@ -110,6 +162,10 @@
 =======
 =======
 >>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+<<<<<<< HEAD
+=======
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
     <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.2\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="classworlds.conf" value="C:\Mavin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
@@ -150,8 +206,16 @@
   </properties>
   <testcase classname="com.mycompany.stackown.SimpleStackTest" name="whenPushThenPoll" time="0.009"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 006f593d0eeaad2464d8d3dd0796ef2829b1ea20
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 006f593d0eeaad2464d8d3dd0796ef2829b1ea20
+=======
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
 =======
     <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\bin\m2.conf"/>
@@ -189,7 +253,14 @@
   </properties>
   <testcase classname="com.mycompany.stackown.SimpleStackTest" name="whenPushThenPoll" time="0"/>
 >>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
+<<<<<<< HEAD
 >>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
   <testcase classname="com.mycompany.stackown.SimpleStackTest" name="whenPushPollThenPushPoll" time="0"/>
   <testcase classname="com.mycompany.stackown.SimpleStackTest" name="whenPushPushThenPollPoll" time="0"/>
 </testsuite>

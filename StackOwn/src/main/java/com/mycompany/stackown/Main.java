@@ -10,6 +10,12 @@ public class Main {
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
               SimpleStack<Integer> st = new SimpleStack<>();
         ForwardLinked fff = new  ForwardLinked();
         fff.addFerst(1);
@@ -31,7 +37,14 @@ public class Main {
           System.out.println(iterr.next());
       }
 =======
+<<<<<<< HEAD
 >>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
 //              SimpleStack<Integer> st = new SimpleStack<>();
 //        ForwardLinked fff = new  ForwardLinked();
 //        fff.addFerst(1);
@@ -61,6 +74,12 @@ public class Main {
         int rsl = queue.poll();
         System.out.println(rsl);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
+=======
+<<<<<<< HEAD
+>>>>>>> 01bf464 (tack 1,2 lambda)
 =======
               SimpleStack<Integer> st = new SimpleStack<>();
         ForwardLinked fff = new  ForwardLinked();
@@ -86,6 +105,10 @@ public class Main {
 =======
 >>>>>>> 63e9b637736414459ac6651f0c2e55561112bb0f
 >>>>>>> 2511c4c93ed77d3de9e9f4d73b93c19c18157319
+<<<<<<< HEAD
+=======
+>>>>>>> 59c8a1c796fdcb1736a318f2cee589a502756996
+>>>>>>> 01bf464 (tack 1,2 lambda)
     }
     
     
